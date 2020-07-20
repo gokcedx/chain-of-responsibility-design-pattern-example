@@ -10,18 +10,14 @@ public enum EnumProblem {
 
     LEVEL_ONE("Level 1 Problem"), //team lader
     LEVEL_TWO("Level 2 Problem"), //project manager
-    LEVEL_THREE("Level 3 Problem"), // department manager
-    LEVEL_FOUR("Level 4 Problem"), // ceo
+    LEVEL_THREE("Level 3 Problem"), //department manager
+    LEVEL_FOUR("Level 4 Problem"), //ceo
     LEVEL_FIVE("Level 5 Problem"); //unsolvable
 
     private String level;
 
     EnumProblem(String level) {
         this.level = level;
-    }
-
-    public String getLevel() {
-        return level;
     }
 
     @Override

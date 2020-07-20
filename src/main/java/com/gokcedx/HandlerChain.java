@@ -7,6 +7,7 @@ package com.gokcedx;
  * @version 13.07.2020
  */
 public class HandlerChain {
+
     private ProblemHandler teamLeaderHandler = new TeamLeaderHandler();
     private ProblemHandler projectManagerHandler = new ProjectManagerHandler();
     private ProblemHandler departmentManagerHandler = new DepartmentManagerHandler();
